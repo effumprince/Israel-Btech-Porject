@@ -659,7 +659,8 @@ background-attachment: fixed;
         padding: 0 20px;
     }
 .out img{
-width:20%;
+width:50%;
+}
 
     .tour1 {
         flex-direction: column;
