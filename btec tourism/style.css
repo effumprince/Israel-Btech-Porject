@@ -1,0 +1,755 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(87, 83, 83, 0.11);
+
+}
+
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.781)),url(/bac/dance1.webp);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes slide{
+    20%{
+        background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.671)),url(/dance/cape\ cas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    40%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.808)),url(/dance/North-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.842)),url(/dance/fes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    80%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.822)),url(/dance/food1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+     background-color: rgb(2, 2, 32); 
+    height: 15vh;
+}
+
+nav ul{
+    display: flex;
+    gap: 45px;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+nav ul li a:hover{
+    color: gray;
+    transition: 0.6s;
+    transform: translateX(-5px);
+}
+
+nav ul li button a{
+    color:  rgb(2, 2, 32);
+    margin: 30px;
+    
+}
+
+nav ul li button{
+    border-radius: 45px;
+    border: 2px solid white;
+}
+nav ul li button:hover{
+    background-color: black;
+    transition: 0.5s;
+    border-color: black;
+}
+
+.logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin: 30px;
+}
+
+.content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 170px;
+
+}
+
+.cont{
+    font-size: 45px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.cont2{
+    font-size: 20px;
+}
+
+.btn button{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+
+}
+
+.about{
+    /* background: linear-gradient(rgba(94, 89, 89, 0), rgba(92, 89, 89, 0), rgba(97, 92, 92, 0)); */
+    background-color:  #2d3948;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    margin-top: 80px;
+}
+.about h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.out{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.out p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 23px;
+}
+.out p button{
+    background-color: rgb(6, 6, 56);
+    height: 30px;
+    width: 110px;
+    border-radius: 50px;
+    border: 2px solid rgb(6, 6, 56) ;
+}
+.out p button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.tour{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 18px;
+    
+}
+
+.tour h3{
+    font-size: 30px;
+color:  #2d3948;
+margin-left: 90px;
+}
+.tour h4{
+    margin-left: 120px;
+    font-size: 25px;
+margin-top: 20px;
+color:   #2d3948;
+}
+
+.tour1{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.tour1 p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+.tour1 p button{
+    height: 34px;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color:   #2d3948;
+    border: 2px solid   #2d3948;
+}
+.tour1 p button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: #2d3948 ;
+    color: white;
+    height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.foot2 p a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.foot4 p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.Gallery{
+    background-color: rgba(2, 2, 32, 0.904);
+    height: 80vh;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    gap: 40px;
+}
+.gal{
+    background-color: white;
+    height: 60vh;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 8px 8px 8px  rgb(2, 2, 32) ;
+    border-radius: 20px;
+    
+}
+.gal:hover{
+    transition: 1s;
+    transform: translateY(-15px);
+}
+.gal p b{
+    font-size: 20px;
+    
+}
+.gal button{
+    background-color: #2d3948;
+    border: 1px solid #2d3948;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.gal button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+}
+ .gal p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 19px;
+    
+} 
+
+/*about*/
+.but{
+    /* display: flex; */
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.but p{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3948;
+    
+}
+.but .image{
+    object-fit: cover;
+    border: 2px solid ;
+    height: ;
+}
+.web{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.678)),url(/dance/basketry1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+background-attachment: fixed;
+
+
+}
+
+
+
+.mi h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+/* .TOURISM */
+
+.art{
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.705)),url(/dance/adowa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation-name: side;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes side{
+    20%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.849),rgba(0, 0, 0, 0.815)),url(/dance/borbor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    40%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.808)),url(/dance/apa\ dance.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    60%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.842)),url(/dance/Agbadza2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    80%{
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.829),rgba(0, 0, 0, 0.822)),url(/bac/dance1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
+.art section h1{
+    margin-top: 100px;
+    
+}
+
+
+
+.art h1 a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 50px;
+}
+
+.tour{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tour3{
+    background-color: #2d3948;
+    width: 1200px;
+    margin-left: 60px;
+    height: 90vh;
+    margin-bottom: 80px;
+}
+
+.tour3 h2{
+    margin-left: 150px;
+    margin-top: 90px;
+    margin-bottom:0px;
+    color: rgba(19, 19, 48, 0.87);
+}
+.adowa{
+    display: flex ;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    gap: 40px;
+    
+    margin-right: 80px;
+    
+    
+    justify-content: center;
+}
+.adowa p{
+    color: white;
+    margin-top: px;
+    line-height: 22px;
+    
+    
+
+}
+.adowa img{
+    margin-top: 12px;
+}
+.hmm{
+    ;
+    color: white;
+}
+
+.tour2{
+    margin-left: 90px;
+    margin-bottom: 30px;
+    color: rgb(33, 41, 38);
+}
+
+.borbor{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.borbor p{
+    margin-top: 80px;
+    margin-right: 30x;
+    line-height: 20px;
+    
+}
+.borbor img{
+    margin-top: 50px;
+}
+.agbadza{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.agbadza p{
+    margin-top: 100px;
+    line-height: 20px;
+}
+.agbadza img{
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.apatampa{
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.apatampa p{
+    margin-top: 50px;
+    margin-right: 30px;
+    line-height: 26px;
+}
+.apatampa img{
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.fav footer{
+    background-color: rgb(11, 11, 46);
+}
+
+
+/* contact */
+
+
+.asaa{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.623)),url(/dance/a9d5fd9b4194562e.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.asaa section{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 50px;
+
+}
+
+
+.contact1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.icon1{
+    height: 35vh;
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 3px 8px;
+    margin-top: 50px;
+}
+.icon1 i{
+    color: #2d3948;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.icon1 p{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.joe{
+    height: 70vh;
+    width: 500px;
+    background-color: #2d3948;
+    box-shadow: 3px 3px 5px;
+    
+}
+
+.joe h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.joe form p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+.joe form input{
+    height: 7vh;
+    width: 400px;
+    
+}
+.joe button{
+    background-color: rgb(9, 9, 34);
+    height: 35px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: 2px solid  rgb(9, 9, 34) ;
+    border-radius: 50px;
+}
+
+.joe button a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .logo {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .content {
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+
+    .cont {
+        font-size: 30px;
+    }
+
+    .cont2 {
+        font-size: 16px;
+    }
+
+    .btn button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .about {
+        height: auto;
+        padding: 20px;
+    }
+
+    .out {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .tour1 {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .Gallery {
+        flex-direction: column;
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .gal {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .but {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .tour3 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding: 20px;
+    }
+    .tour3 h2{
+        color: black;
+        margin-right: px;
+    }
+
+    .adowa,
+    .borbor,
+    .agbadza,
+    .apatampa {
+        flex-direction: column;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .adowa img,
+    .borbor img,
+    .agbadza img,
+    .apatampa img {
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .contact1,
+    .big {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .icon1,
+    .joe {
+        width: 90%;
+    }
+
+    .joe form input {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .joe button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    footer {
+        font-size: 16px;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+

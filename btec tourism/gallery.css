@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(87, 83, 83, 0.11);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+ background-color: rgb(2, 2, 32); 
+    height: 15vh;
+
+}
+nav ul{
+    display: flex;
+    gap: 45px;
+    margin-right: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav ul li button a{
+    color:  rgb(2, 2, 32);
+    margin: 30px;
+    
+}
+nav ul li button{
+    border-radius: 45px;
+    border: 2px solid white;
+}
+
+.logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin: 30px;
+}
+.gale{
+    background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.788)),url(/dance/adowa.jpg);
+    height: 70vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+color: white;
+
+
+}
+
+.gale section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+
+
+/* .contanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+
+
+.galimg{
+    height: 30vh;
+    width: 300px;
+    box-shadow: 1px 2px 3px;
+    background-color: bisque;
+    border-radius: 15px;
+
+}
+.galimg img{
+    object-fit: cover;
+}
+.gal1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.gal2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+} */
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 20px;
+}
+#imgs{
+flex: 25%;
+max-width: 25%;
+padding: 0 8px;
+margin-top: 20px;
+}
+#imgs >img{
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 8px;
+    box-shadow: 3px 4px 5px white;
+    border-radius: 15px;
+}
+#imgs >img:hover{
+    transition: 1s;
+    scale: 1.5px;
+    transform: translateX(-10px);
+    border: 2px solid white;
+}
+
+footer{
+    background-color: #2d3948 ;
+    color: white;
+    height: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.foot2 p a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+
+    .gale section {
+        font-size: 25px;
+        margin: 40px 20px 0 20px;
+    }
+
+    .parent {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    #imgs {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px 10px;
+        font-size: 16px;
+    }
+
+    .foot {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .foot2 p a {
+        font-size: 14px;
+    }
+}
