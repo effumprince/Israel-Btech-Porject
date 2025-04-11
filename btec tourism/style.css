@@ -24,7 +24,7 @@ body{
 }
 @keyframes slide{
     20%{
-        background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.671)),url(/dance/cape\ cas.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.671)),url(dance/castle.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@ body{
     }
 
     60%{
-        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.842)),url(/dance/fes.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.856),rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.842)),url(dance/kakum_canopy_walk.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
