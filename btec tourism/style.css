@@ -1,4 +1,4 @@
-*{
+7*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -673,6 +673,10 @@ width:100%;
         margin-left: 20px;
         margin-right: 20px;
     }
+.tour2{
+        margin-right: 12px;
+line-height: 15px;
+}
 
     .gal {
         width: 90%;
